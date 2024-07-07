@@ -1,0 +1,70 @@
+.todolist{
+    display:flex;
+    flex-direction:column;
+    place-items:center;
+    gap:30px;
+    margin:40px 0;
+    padding:auto, 40px;
+    width:100vh;
+    background:lightgray;
+    border-radius:10px;
+}
+h1{
+    color:blue;
+    font-family:sans-serif;
+    margin:20px 0;
+}
+input{
+    width:60vh;
+    height:30px;
+    opacity:0.5;
+    outline:none;
+    font-size:15px;
+    border:0;
+    padding:10px;
+}
+.addbutton{
+    height:50px;
+    margin:10px;
+  padding:10px 30px;
+  border:0;
+  outline:none;
+  color:white;
+  background:green;
+  font-weight:bold;
+  cursor:pointer;
+}
+.listitems{
+    padding:50px 0;
+}
+li{
+    margin:10px;
+    list-style:none;
+    display:flex;
+    width:400px;
+    justify-content:space-between;
+    background:white;
+    padding:10px;
+}
+li:hover{
+    background:rgba(255, 255, 255, 0.5);
+    cursor:pointer;
+}
+ li .task{
+color:blue;
+font-size:15px;
+font-family:sans-serif;
+}
+.delete{
+background:red;
+border:0;
+outline:none;
+padding:5px;
+color:white;
+cursor:pointer;
+}
+
+
+
+
+
